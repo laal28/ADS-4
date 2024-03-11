@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 // Copyright 2021 NNTU-CS
 int countPairs1(int *arr, int len, int value) {
   uint r = 0;
@@ -8,7 +10,7 @@ int countPairs1(int *arr, int len, int value) {
   return r;
 }
 int countPairs2(int *arr, int len, int value) {
-  for( int i = 0; i < len; ++i ) 
+  for( int i = 0; i < len; ++i );
 }
 int countPairs3(int *arr, int len, int value) {
   return 0;
