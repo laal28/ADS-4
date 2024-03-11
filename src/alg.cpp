@@ -1,11 +1,9 @@
-#include <stdint.h>
-
 // Copyright 2021 NNTU-CS
 int countPairs1(int *arr, int len, int value) {
-  uint r = 0;
+  unsigned int r = 0;
   for ( int i = 0; i < len; ++i )
     for ( int j = 0; j < len; ++j )
-      r += (arr[i]+arrj[j] == value);
+      r += (arr[i]+arr[j] == value);
 
   return r;
 }
