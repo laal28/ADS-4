@@ -13,7 +13,7 @@ int countPairs1(int *arr, int len, int value) {
 int countPairs2(int *arr, int len, int value) {
   int count = 0;
   int rightPos = len - 1;
-  for ( ; arr[right] > value; )
+  for ( ; arr[rightPos] > value; )
     rightPos--;
     
   for ( int i = 0; i < rightPos; ++i ) {
